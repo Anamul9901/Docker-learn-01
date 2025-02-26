@@ -1,0 +1,11 @@
+-----------create a simple docker conatainer--------------
+1: npm init -y  [for package.json file]
+2: npm install [for package-lock.json file]
+3: setup app.mjs and helpers.mjs file
+
+
+----------------Docker----------------
+1: Create 'Dockerfile' in root directory
+2: docker build .
+3: docker run -p 5000:5000 sha256:7747972a639442b4e230c16a2af3c70affa8663a4b0f830e0ed2defa684ed098 ["-p 5000:5000" for port mapping, "sha256:7747972a639442b4e230c16a2af3c70affa8663a4b0f830e0ed2defa684ed098" is the image id]
+4: check localhost:5000 in browser
