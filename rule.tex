@@ -9,3 +9,10 @@
 2: docker build .
 3: docker run -p 5000:5000 sha256:7747972a639442b4e230c16a2af3c70affa8663a4b0f830e0ed2defa684ed098 ["-p 5000:5000" for port mapping, "sha256:7747972a639442b4e230c16a2af3c70affa8663a4b0f830e0ed2defa684ed098" is the image id]
 4: check localhost:5000 in browser
+
+
+----------------Pre build images run----------------
+1: docker run node [download image and run from docker hub, but it stop immediately]
+2: docker run -it node [run docker image]
+3: docker ps [check running container]
+4: docker ps -a [check all container]
